@@ -44,7 +44,7 @@ export default function ChatUI() {
     try {
 
       const AIResponse = await axios.post(
-        "http://localhost:3000/api/chat",
+        "https://crustdata-project.vercel.app/api/chat",
         { query: input }
       )
 
